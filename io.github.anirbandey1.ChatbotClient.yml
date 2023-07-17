@@ -24,11 +24,11 @@ modules:
       - make flatpak
     sources:
       - type: archive
-        url: "https://github.com/anirbandey1/chatbot-client/releases/download/v1.0.0/chatbot-client-linux-x64.tar.xz"
-        sha256: "3d1081779e0456a393695dd9b80287e1e70adf31db1fa942c1c359f45bac8739"
+        url: "https://github.com/anirbandey1/chatbot-client/releases/download/v1.0.1/chatbot-client-linux-x64.tar.xz"
+        sha256: "0a8dfae6aa608c96540e0717bf5763633a4da06f140c291f5efc320459a4b938"
 
       - type: archive
-        url: "https://github.com/anirbandey1/chatbot-client/archive/refs/tags/v1.0.0.tar.gz"
-        sha256: "fc3f192acf77911feabc0a52ae4bae34fe4c461f07230794a4a40ec81c858b85"
+        url: "https://github.com/anirbandey1/chatbot-client/archive/refs/tags/v1.0.1.tar.gz"
+        sha256: "a016c2f05a627000be8553454188b377bf1913a86e60c5356a956e37790ac39f"
 
 
