@@ -21,14 +21,18 @@ modules:
     only-arches:
       - x86_64
     build-commands:
+      - ls -la
       - make flatpak
     sources:
-      - type: archive
-        url: "https://github.com/anirbandey1/chatbot-client/releases/download/v1.0.1/chatbot-client-linux-x64.tar.xz"
-        sha256: "0a8dfae6aa608c96540e0717bf5763633a4da06f140c291f5efc320459a4b938"
 
-      - type: archive
-        url: "https://github.com/anirbandey1/chatbot-client/archive/refs/tags/v1.0.1.tar.gz"
-        sha256: "a016c2f05a627000be8553454188b377bf1913a86e60c5356a956e37790ac39f"
+      - type: file
+        url: "https://github.com/anirbandey1/chatbot-client/releases/download/v1.0.2/chatbot-client.deb"
+        dest-filename: "chatbot-client.deb"
+        sha256: "47911f60e35f48caa5413cf262e43711577ee31fc16a4752a77ce9810b0b7601"
+
+      - type: git
+        url: "https://github.com/anirbandey1/chatbot-client.git"
+        tag: "v1.0.2"
+
 
 
