@@ -22,17 +22,17 @@ modules:
       - x86_64
     build-commands:
       - ls -la
-      - make flatpak
+      - ./scripts/linux.sh build-flatpak
     sources:
 
       - type: file
-        url: "https://github.com/anirbandey1/chatbot-client/releases/download/v1.0.2/chatbot-client.deb"
+        url: "https://github.com/soufrabi/chatbot-client/releases/download/v1.0.3/chatbot-client.deb"
         dest-filename: "chatbot-client.deb"
-        sha256: "47911f60e35f48caa5413cf262e43711577ee31fc16a4752a77ce9810b0b7601"
+        sha256: "69f3c0116f376a3741bd45d9ccbcdddf3e2597e1894f2e6add0ee04aef50a144"
 
       - type: git
-        url: "https://github.com/anirbandey1/chatbot-client.git"
-        tag: "v1.0.2"
+        url: "https://github.com/soufrabi/chatbot-client.git"
+        tag: "v1.0.3"
 
 
 
