@@ -26,13 +26,13 @@ modules:
     sources:
 
       - type: file
-        url: "https://github.com/soufrabi/chatbot-client/releases/download/v1.0.4/chatbot-client.deb"
+        url: "https://github.com/soufrabi/chatbot-client/releases/download/v1.0.5/chatbot-client.deb"
         dest-filename: "chatbot-client.deb"
-        sha256: "ab3df10349a1003e86b13b14724737efc1fa1ad8f8ddca87339c71a57e34ec04"
+        sha256: "93618395077e1f931902bb254c88a0bb588fcec2d8f589a8178211efb8ab4f83"
 
       - type: git
         url: "https://github.com/soufrabi/chatbot-client.git"
-        tag: "v1.0.4"
+        tag: "v1.0.5"
 
 
 
