@@ -1,7 +1,7 @@
-# Flatpak ChatGPT Electron
+# Chatbot Client (Flatpak)
 
-> This is an Unofficial Flatpak version of ChatGPT Electron
+> This is an unofficial electron wrapper for ChatGPT website
 > This repackaging is not supported by OpenAI
 
 ## Issues
-Please open issues under: https://github.com/flathub/io.github.anirbandey1.ChatGPTElectron/issues
+Please open issues under: https://github.com/flathub/io.github.anirbandey1.ChatbotClient/issues
