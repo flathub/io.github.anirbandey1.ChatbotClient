@@ -1,3 +1,4 @@
 {
-  "only-arches": ["x86_64"]
+  "only-arches": ["x86_64"],
+  "end-of-life": "This application is no longer maintained because its better to use an up-to-date browser which fixes security holes in a timely manner. Thanks for using this app till now. You can still manually build this flatpak if you want."
 }
